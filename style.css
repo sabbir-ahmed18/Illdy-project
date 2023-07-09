@@ -391,11 +391,12 @@ nav ul li a:hover{
 /* close the image gallery section */
 .show-client{
     width:100%;
-    height:100vh;
+    height:auto;
     background-image:url(Image/front-page-counter.jpg);
     background-size:cover;
     background-position:center;
     background-attachment:fixed;
+    margin-bottom:100px;
 }
 .show-container{
     width:100%;
@@ -452,7 +453,6 @@ nav ul li a:hover{
     display:flex;
     justify-content: space-around;
     margin:0 auto;
-    margin-bottom:100px;
 }
 .team-container-child{
     display:flex;
@@ -509,4 +509,94 @@ nav ul li a:hover{
 }
 .team-icons3 a i{
     font-size:13px;
+}
+/* close the client show section */
+/* close the client show section */
+.contactUs-container{
+    width:100%;
+    height:auto;
+}
+.contactUs-header{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.contactUs-header h1{
+    font-size:35px;
+    color:#000000ba;
+    margin:40px;
+}
+.contact-social-box{
+    width:90%;
+    display:flex;
+    margin:40px auto;
+
+}
+.contact-box-container{
+    width:70%;
+    display:flex;
+    justify-content: space-between;
+}
+.contact-box-child{
+    display:flex;
+    width:350px;
+    padding:10px;
+}
+.contact-box-child p:not(.contact-box-child-para){
+    color:#0000006c;
+}
+.contact-box-child-para{
+    margin-right:30px;
+    width:100px;
+    border-right:1px solid #000;
+    color:#F1D204;
+}
+#goo{
+    width:300px;
+}
+#doo{
+    width:400px;
+}
+
+.social-contactus{
+    margin-left:auto;
+}
+.social-contactus i{
+    margin-left:10px;
+    color:#8c9597;
+    transition:all .3s ease;
+}
+.social-contactus i:hover{
+    color:#000;
+}
+label{
+    display:block;
+}
+.input-box{
+    width:90%;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+}
+.input-box-child label,.text-area-box label{
+    padding-bottom:10px;
+    color:#00000056;
+    font-weight:700;
+}
+.input-box-child input{
+    width:350px;
+    padding:10px;
+    background-color:#FCFCFC;
+    border:1px solid #878686;
+}
+.text-area-box{
+    width:90%;
+    margin:0 auto;
+    margin-top:10px;
+}
+.text-area-box input{
+    width:100%;
+    height:200px;
+    background-color:#FCFCFC;
+    border:1px solid #878686;
 }
